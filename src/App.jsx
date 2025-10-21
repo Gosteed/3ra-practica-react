@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const [count2, setCount2] = useState(0)
-  const [color, setColor] = useState("white")
+  const [color, setColor] = useState("gray")
 
   return (
     <>
@@ -27,6 +27,7 @@ function App() {
       >
       <button onClick={() => setColor('blue')}>Cambiar a azul</button>
       <button onClick={() => setColor('green')}>Cambiar a verde</button>
+      <button onClick={() => setColor('red')}>Cambiar a rojo</button>
       </div>
     </>
   )
